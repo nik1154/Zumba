@@ -3,7 +3,7 @@ A web app to manage photos.
 This app is built using Express.js and Material Design Lite.
 
 Installation:
-1. Ensure Mongodb, Node.JS and npm are installed and available on your system. You need Node.js v7.8.0 or later to run this sample.
+1. Ensure Mongodb, Node.JS and npm are installed and available on your system. You need Node.js v7.8.0 or later to run this app.
 2. Open two terminals, run 'sudo mongod' on one terminal(Do not press any key, leave it as it is, 
 make sure to properly close the connection). Navigate to the directory Zumba in th other
 3. Install dependencies: Run npm install,
