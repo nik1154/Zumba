@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Roboto Font-->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+
+	<!-- Fancybox Gallery CSS -->
+	<link rel="stylesheet" type="text/css" href="/fancybox/jquery.fancybox.min.css">
+
+	<!-- Material design icon-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" href="/mdlite/material.indigo-pink.min.css">
+	
+	<script src="/mdlite/material.min.js"></script>
+
+	<link rel="stylesheet" href="/css/frame.css">
+	
+	<title>Zumba</title>
+</head>
+
+<body>
+	<!-- Always shows a header, even in smaller screens. -->
+	<div class="mdl-layout--fixed-header mdl-js-layout">
+		<header class="mdl-layout__header mdl-layout__header--waterfall">
+			<div class="mdl-layout__header-row" style="background-color: #191414">
+				<!-- Title -->
+				<span class="mdl-layout-title" style="color: #e49023; font-family: 'Poiret One',cursive; font-size: 35px;">Zumba</span>
+				<nav class="mdl-navigation" style="padding-left: 40px">
+					<a class="mdl-navigation__link" href="/frame" style="color: #e49023; font-family: 'Poiret One',cursive; padding-left: 16px;">PREVIEW</a>
+					<a class="mdl-navigation__link" href="/search" style="color: #e49023; font-family: 'Poiret One',cursive;">SEARCH</a>
+					<a class="mdl-navigation__link" href="/album" style="color: #e49023; font-family: 'Poiret One',cursive;">ALBUMS</a>
+				</nav>
+				<!-- Add spacer, to align avatar/disconnect to the right -->
+				<div class="mdl-layout-spacer"></div>
+				<nav class="mdl-navigation">
+					<img src=" <%=avatarUrl%>" id="userAvatar" />
+					 <%= name %>
+					<a class="mdl-navigation__link" href="/logout">Logout</a>
+				</nav>
+			</div>
+			<!-- <div class="mdl-layout__header-row" style="background-color: #191414">
+				<nav class="mdl-navigation">
+					<a class="mdl-navigation__link" href="/frame" style="color: #e49023; font-family: 'Poiret One',cursive;">PREVIEW</a>
+					<a class="mdl-navigation__link" href="/search" style="color: #e49023; font-family: 'Poiret One',cursive;">SEARCH</a>
+					<a class="mdl-navigation__link" href="/album" style="color: #e49023; font-family: 'Poiret One',cursive;">ALBUMS</a>
+				</nav>
+			</div> --><hr>
+		</header>
+
+		<!-- Loading dialog -->
+		<div class="loading-dialog">
+			<h1 style="font-family: 'Poiret One',cursive;">LOADING...</h1>
+			<div class="mdl-spinner mdl-js-spinner is-active"></div>
+		</div>
+
+		<main class="demo-main mdl-layout__content" style="width:100%;">
+			<div class="page-content">
